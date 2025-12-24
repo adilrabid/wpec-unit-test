@@ -1,0 +1,14 @@
+{
+	"require": {
+		"paypal/paypal-checkout-sdk": "1.0.1",
+		"stripe/stripe-php": "^18.0"
+	},
+	"autoload": {
+		"classmap": [
+			"includes**",
+			"public**",
+			"admin**",
+			"lib**"
+		]
+	}
+}

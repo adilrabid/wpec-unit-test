@@ -1,0 +1,33 @@
+{
+  "name": "wp-express-checkout",
+  "title": "WP Express Checkout",
+  "version": "2.3.11",
+  "description": "This plugin allows you to generate a customizable PayPal payment button that lets the customers pay quickly in a popup via PayPal.",
+  "homepage": "https://wp-express-checkout.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Arsenal21/wp-express-checkout.git"
+  },
+  "author": {
+    "name": "Tips and Tricks HQ",
+    "url": "https://www.tipsandtricks-hq.com/"
+  },
+  "main": "Gruntfile.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "devDependencies": {
+    "@woocommerce/dependency-extraction-webpack-plugin": "^3.0.1",
+    "@wordpress/scripts": "^27.9.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 10%"
+  ],
+  "dependencies": {
+    "@wordpress/components": "^27.6.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38"
+  }
+}
