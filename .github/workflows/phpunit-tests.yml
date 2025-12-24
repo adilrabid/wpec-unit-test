@@ -28,9 +28,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        php: [ '8.0']
+        php: [ '8.3']
         wordpress: ['latest']
-        phpunit: ['7.5.*']
+        phpunit: ['9.*']
         exclude:
           # excludes WP5 from latest PHP setups
           - php: '8.0'
